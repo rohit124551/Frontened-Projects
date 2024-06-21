@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  background-color: white;
+  /* margin: 20px; */
+}
+#nav {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px;
+}
+#nav-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav h3 {
+  font-size: 16px;
+  border: 1px solid #000;
+  padding: 4px 8px;
+  border-radius: 1cm;
+}
+#nav > i {
+  border: 1px solid #000;
+  border-radius: 1cm;
+  padding: 5px 7px;
+}
+#nav h1 {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  /* color: rgb(178, 29, 29); */
+}
+#nav button {
+  border: 1px solid #000;
+  border-radius: 1cm;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+#btn2 {
+  border: none !important;
+  background-color: orangered;
+  color: white;
+}
+#main > h1 {
+  /* color: red; */
+  font-size: 150px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  object-fit: cover;
+  object-position: 5px 10%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+#img1 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img3 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+/* #img4{
+    transform:translate(-50%,-50%) rotate(-10deg);
+} */
+#btm-lft {
+  position: absolute;
+  bottom: 5%;
+  left: 50px;
+  font-size: 19px;
+}
+#smdia {
+  display: flex;
+  position: absolute;
+  font-size: 22px;
+  bottom: 8%;
+  right: 50px;
+}
+#btm-lft-2 {
+  position: absolute;
+  bottom: 5%;
+  right: 50px;
+}
+#nav-part3 > a > i {
+  font-size: 20px;
+  color: black;
+  border: 1px solid #000;
+  border-radius: 2cm;
+  padding: 2px;
+}
+/* #cnt {
+  font-size: 250px;
+  bottom:0%;
+  right:40%;
+  position: absolute;
+  /* transform: translate(-50%, -50%);*/
+}  */
